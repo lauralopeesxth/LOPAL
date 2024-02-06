@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 03:44:16 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjE5OzIwMjQtMDItMDY7IjAxOjU0OjEwICI7MjI0Nw=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjE5OzIwMjQtMDItMDY7IjAzOjQ0OjE2ICI7MTsyMzYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pedido" type="String" array="False" size=""/>
+            <output expression="&quot;temos Xtudo, Xbacon, Xsalada, Xfrango, Xburguer&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
