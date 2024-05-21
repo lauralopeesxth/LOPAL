@@ -1,26 +1,25 @@
-import java.util.Scanner;
+import java.util.Scanner; // Biblioteca Scanner
 
 public class ex3 {
+  public static void main(String[] args) {
+  
+	Scanner S = new Scanner(System.in); 
     
-    public static void main(String[] args){
-        Scanner leia = new Scanner (System.in);
-        int nota = 0;
-        System.out.print("Qual a sua nota?");
-        nota = leia.nextInt();
-        if (nota >= 90 && nota <= 100){
-            System.out.println("Sua nota é " + nota + " e classificação de A");
-        }
-        else if (nota >= 80 && nota <= 89){
-        System.out.println("Sua nota é " + nota + " e classificação de B");
-        }
-        else if (nota >= 70 && nota <= 79){
-            System.out.println("Sua nota é " + nota + " e classificação de C");
-        }
-        else if (nota >= 60 && nota <= 69){
-            System.out.println("Sua nota é "+ nota + " e classificação de D");
-        }
-        else{
-            System.out.println("Sua nota é " + nota + " e classificação de F");
-            }
+ int [] N = new int[5]; //numero d indices
+ 
+ 
+ 
+ System.out.print("digite dez numeros inteiros: "); // pede 10 numeros
+ for (int i=0; i < 5; i++) { // solicita um numero  a cada iteraçao
+     System.out.print("numero " + (i ) + "; "); // exibe a mensagem e pede o numero mais 1 para começar do 1, (o vetor inicia do zero)
+     N[i] = S.nextInt(); // armazena / le o numero inserido 
+     
+     
+     
+   
      }
+    // imprime a soma de todos os numeros
+    System.out.println(" inversao desses numeros é " + N[4] + "," +N[3]+ ","+ N[2]+","+ N[1]+ ","+ N[0]);
+  
   }
+}
