@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+  
+ 
+	Scanner leia = new Scanner(System.in);
+	String [] [] Cliente = new String [3] [2];
+	
+	System.out.print("qual seu nome: ");
+	Cliente [0] [0] = leia.next();
+	System.out.print("qual seu endereço: ");
+	Cliente [0] [1] = leia.next();
+		System.out.print("qual seu nome: ");
+	Cliente [1] [0] = leia.next();
+	System.out.print("qual seu endereço: ");
+	Cliente [1] [1] = leia.next();
+		System.out.print("qual seu nome: ");
+	Cliente [2] [0] = leia.next();
+	System.out.print("qual seu endereço: ");
+	Cliente [2] [1] = leia.next();
+	for (int i=0; i < 3; i++){
+	    System.out.println("Nome: "+ Cliente [i] [0]);
+	    System.out.println("Endereço: " + Cliente [i] [1]);
+	    System.out.println();
+	}
+    }
+}

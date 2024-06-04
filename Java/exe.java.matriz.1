@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+  
+ 
+	Scanner leia = new Scanner(System.in);
+	String [] [] Cliente = new String [3] [2];
+	
+	Cliente [0] [0] = "João";
+	Cliente [0] [1] = "Rua das Flores, 123";
+	Cliente [1] [0] = "Maria";
+	Cliente [1] [1] = "Avenida dos Anjos, 456";
+	Cliente [2] [0] = "Pedro";
+	Cliente [2] [1] = "Praça da Liberdade, 789";
+	for (int i=0; i < 3; i++){
+	    System.out.println("Nome: "+ Cliente [i] [0]);
+	    System.out.println("Endereço: " + Cliente [i] [1]);
+	    System.out.println();
+	}
+    }
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner; 
+
+public class Main {
+  public static void main(String[] args) {
+	Scanner leia = new Scanner(System.in); 
+    int x = 0;
+     System.out.print("qual o valor de x?");
+     x = leia.nextInt();
+     if(x > 0){
+          System.out.print( x + " e positivo. ");
+     }
+     else if(x < 0){
+          System.out.print( x + " e negativo. ");
+    }
+    else{
+         System.out.print( x + " e zero. ");
+    }
+    
+    
+  } 
+}
+         
+         
+         
+    
